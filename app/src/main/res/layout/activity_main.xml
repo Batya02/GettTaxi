@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F8FB"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="350dp"
+        android:text="Подключиться"
+        android:textColor="#120D0D"
+        android:textStyle="bold"
+        app:backgroundTint="#FFEB3B" />
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="410dp"
+        android:text="Информация"
+        android:textColor="#120D0D"
+        android:textStyle="bold"
+        app:backgroundTint="#FFEB3B" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:foreground="@mipmap/gett" />
+
+</RelativeLayout>

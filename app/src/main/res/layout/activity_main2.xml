@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFD"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ПЛЮСЫ РАБОТЫ С GETT:"
+        android:textAlignment="center"
+        android:textColor="#171515"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/back_own_menu"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="21dp"
+        android:text="Вернуться назад"
+        android:textColor="#020202"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFEB3B" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:scrollbarSize="5dp"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+</RelativeLayout>
