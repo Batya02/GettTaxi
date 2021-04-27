@@ -1,2 +1,3 @@
 # GettTaxi
-![Application Screens](screens/screen_1.png)(screens/screen_2.png)
+![First Screen](screens/screen_1.png)
+![Second Screen](screens/screen_2.png)
